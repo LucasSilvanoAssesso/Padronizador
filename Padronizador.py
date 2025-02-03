@@ -34,7 +34,6 @@ def process_csv(input_file):
             encoding = encoding_result['encoding']
             if encoding is None:
                 encoding = 'utf-8'
-            print(f"Encoding detectado: {encoding}")
 
         arquivo_saida = gerar_nome_saida(input_file)
         
